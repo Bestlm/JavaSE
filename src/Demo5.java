@@ -1,4 +1,5 @@
 public class Demo5 {
+    //数组
     public static void main(String[] args) {
         int i[] = new int[7];
         i[0]=1;
