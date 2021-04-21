@@ -1,3 +1,5 @@
+package com.bestlm.base;
+
 public class Demo1 {
     //方法的调用
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package com.bestlm.base;
+
 public class Demo2 {
     public static void main(String[] args) {
         compare(4,5);

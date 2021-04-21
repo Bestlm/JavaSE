@@ -1,3 +1,5 @@
+package com.bestlm.base;
+
 public class Demo3 {
     public static void main(String[] args) {
        max(1.0,2.0,3.0,4.0,5.0,64.89);

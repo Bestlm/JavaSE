@@ -1,3 +1,5 @@
+package com.bestlm.base;
+
 import java.util.Scanner;
 
 public class Demo4 {

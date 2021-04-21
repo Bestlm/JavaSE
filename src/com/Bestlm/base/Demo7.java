@@ -1,3 +1,5 @@
+package com.bestlm.base;
+
 /**
  * @author Bestlm
  * @date 2021/4/21 0:01

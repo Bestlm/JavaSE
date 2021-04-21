@@ -1,11 +1,16 @@
+package com.bestlm.base;
+
 import java.util.Scanner;
+
 /**
-  * @description switch+while循环计算器
-  * @author Bestlm
-  * @date : 2021/4/20
-*/
+ * @author Bestlm
+ * @description switch+while循环计算器
+ * @date : 2021/4/20
+ */
 public class Demo6 {
-    /**while + switch循环计算器*/
+    /**
+     * while + switch循环计算器
+     */
     public static void main(String[] args) {
         /**创建对象调用对象里面的方法*/
         Demo6 demo6 = new Demo6();
@@ -13,7 +18,9 @@ public class Demo6 {
         demo6.jisuan();
     }
 
-    /**加法*/
+    /**
+     * 加法
+     */
     public static double sum(double a) {
         System.out.println("请输入一个数");
         Scanner scan3 = new Scanner(System.in);
@@ -21,7 +28,9 @@ public class Demo6 {
         return a + b;
     }
 
-    /**减法*/
+    /**
+     * 减法
+     */
     public static double sub(double a) {
         System.out.println("请输入一个数");
         Scanner scan4 = new Scanner(System.in);
@@ -29,7 +38,9 @@ public class Demo6 {
         return a - b;
     }
 
-    /**乘法*/
+    /**
+     * 乘法
+     */
     public static double mul(double a) {
         System.out.println("请输入一个数");
         Scanner scan5 = new Scanner(System.in);
@@ -37,7 +48,9 @@ public class Demo6 {
         return a * b;
     }
 
-    /**除法*/
+    /**
+     * 除法
+     */
     public static double divide(double a) {
         System.out.println("请输入一个数");
         Scanner scan6 = new Scanner(System.in);
