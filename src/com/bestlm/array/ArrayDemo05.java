@@ -13,10 +13,8 @@ public class ArrayDemo05 {
         sort(a);
         System.out.println(Arrays.toString(a));
     }
-
-    int temp = 0;
-
     public static void sort(int[] array) {
+        //外层循环
         for (int i = 0; i < array.length - 1; i++) {
             for (int j = 0; j < array.length - 1 - i; j++) {
                 if (array[j + 1] < array[j]) {
